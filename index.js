@@ -1,6 +1,8 @@
 // Use chai-as-promised for promise assertions and attach the expect globally
 var chai = require('chai');
-chai.use(require('chai-as-promised'));
+chai
+  .use(require('chai-as-promised'))
+  .use(require('sinon-chai'));
 global.expect = chai.expect;
 
 // Set up sinon
