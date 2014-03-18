@@ -1,0 +1,26 @@
+{
+  "name": "test-setup",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Set up the testing environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/valet-io/test-setup.git"
+  },
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valet-io/test-setup/issues"
+  },
+  "homepage": "https://github.com/valet-io/test-setup",
+  "devDependencies": {
+    "chai-as-promised": "~4.1.1",
+    "chai": "~1.9.0",
+    "sinon-as-promised": "0.0.3",
+    "sinon": "~1.9.0"
+  }
+}
